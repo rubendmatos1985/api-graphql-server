@@ -1,0 +1,25 @@
+{
+  "name": "apollo-react-graphql",
+  "version": "1.0.0",
+  "description": "learning apollo react and graphql stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node server.js",
+    "server": "nodemon --exec babel-node server.js"
+  },
+  "author": "rubendmatos1985",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "nodemon": "^1.18.10"
+  }
+}
